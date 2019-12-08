@@ -266,16 +266,16 @@ def news_menu():
         bbc()
         
 
-    if odabir == "2":
+    elif odabir == "2":
         index()
     
-    if odabir == "q":
+    elif odabir == "q":
         sys.exit()
 
-    if odabir == "b":
+    elif odabir == "b":
         menu()
 
-    if odabir == "m":
+    elif odabir == "m":
         naslovna()
 
     else:
@@ -294,16 +294,16 @@ def sportnews_menu():
         bbcsport()
         
 
-    if odabir == "2":
+    elif odabir == "2":
         Telesport()
     
-    if odabir == "q":
+    elif odabir == "q":
         sys.exit()
 
-    if odabir == "b":
+    elif odabir == "b":
         menu()
 
-    if odabir == "m":
+    elif odabir == "m":
         naslovna()
 
     else:
@@ -324,33 +324,33 @@ def technews_menu():
         DefCon()
         
 
-    if odabir == "2":
+    elif odabir == "2":
         BlackHat()
 
 
-    if odabir == "3":
+    elif odabir == "3":
         ProjectZero()
         
 
-    if odabir == "4":
+    elif odabir == "4":
         NODE()
 
-    if odabir == "5":
+    elif odabir == "5":
         g0hwc()
 
-    if odabir == "6":
+    elif odabir == "6":
         LiveOverflow()
 
-    if odabir == "7":
+    elif odabir == "7":
         HackerNews()
     
-    if odabir == "q":
+    elif odabir == "q":
         sys.exit()
 
-    if odabir == "b":
+    elif odabir == "b":
         menu()
 
-    if odabir == "m":
+    elif odabir == "m":
         naslovna()
 
     else:
@@ -373,18 +373,18 @@ def menu():
         os.system('clear')
         technews_menu()
     
-    if odabir == "2":
+    elif odabir == "2":
         os.system('clear')
         sportnews_menu()
 
-    if odabir == "3":
+    elif odabir == "3":
         os.system('clear')
         news_menu()
 
-    if odabir == "q":
+    elif odabir == "q":
         sys.exit()
 
-    if odabir == "b":
+    elif odabir == "b":
         naslovna()
 
     else:
