@@ -264,11 +264,37 @@ def news_menu():
 
     if odabir == "1":
         bbc()
-        
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            news_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
+       
 
     elif odabir == "2":
         index()
-    
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            news_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
+   
     elif odabir == "q":
         sys.exit()
 
@@ -292,11 +318,37 @@ def sportnews_menu():
 
     if odabir == "1":
         bbcsport()
-        
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            sportnews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
+       
 
     elif odabir == "2":
         Telesport()
-    
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            sportnews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
+   
     elif odabir == "q":
         sys.exit()
 
@@ -322,28 +374,119 @@ def technews_menu():
 
     if odabir == "1":
         DefCon()
-        
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            technews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
+       
 
     elif odabir == "2":
         BlackHat()
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            technews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
 
 
     elif odabir == "3":
         ProjectZero()
-        
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            technews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
+       
 
     elif odabir == "4":
         NODE()
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            technews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
 
     elif odabir == "5":
         g0hwc()
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            technews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
 
     elif odabir == "6":
         LiveOverflow()
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            technews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
 
     elif odabir == "7":
         HackerNews()
-    
+        odabir =input(fcolors.RED+"Pritisni b za nazad, m za naslovnicu ili q za izac...\n")
+
+        if odabir == "q":
+            sys.exit()
+
+        elif odabir == "b":
+            technews_menu()
+
+        elif odabir == "m":
+            naslovna()
+        else:
+            print("Denied!")
+
+   
     elif odabir == "q":
         sys.exit()
 
